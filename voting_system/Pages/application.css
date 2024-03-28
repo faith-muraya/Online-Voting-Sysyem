@@ -1,0 +1,39 @@
+.form-container {
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
